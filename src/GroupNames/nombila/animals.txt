@@ -30,7 +30,7 @@ public class animals {
 		}
 		@override
 		public int hashCode(){
-			return modelYear;
+			return ageOfAnimal;
 			}
 }
 
