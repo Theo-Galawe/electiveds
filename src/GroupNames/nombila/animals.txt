@@ -1,0 +1,36 @@
+public class animals {
+	private String animaliName;
+	private int ageOfAnimal;
+
+	 public animals(String animaliName,int ageOfAnimal){
+		this.animaliName=animaliName;
+		this.ageOfAnimal=ageOfAnimal;
+		}
+	 public String getanimaliName(){
+		return animaliName;
+		}
+	 public int getAgeOfAnimal(){
+		return ageOfAnimal;
+		}
+	 public void setAnimaliName(String animaliName){
+		this.animaliName=animaliName;
+		}
+
+	 public void setTypeOfAnimal(){
+	 	this.AgeOfAnimal=AgeOfAnimal;
+	 	}
+
+	 	 @Override
+	 	 public boolean equals(Object o){
+	 	 	if (this==0) return true;
+	 	 	if (o==null||getClass() != o.getClass()) return false;
+
+	 	 	Animals Animals==(Animals) o;
+	 	 	return ageOfAnimal==animals.ageOfAnimal;
+		}
+		@override
+		public int hashCode(){
+			return modelYear;
+			}
+}
+
