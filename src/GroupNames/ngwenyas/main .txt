@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+
+public class main {
+
+	public static void main(String[] args){
+		ArrayList al= new ArrayList();
+		LinkedList ll= new LinkedList();
+		HashSet hs= new HashSet();
+
+		Laptop laptop1= new Laptop ("Lenovo" , 2008);
+		Laptop laptop1= new Laptop ("HP" , 2010);
+		Laptop laptop1= new Laptop ("Dell" , 2007);
+		Laptop laptop1= new Laptop ("Apple" , 2003);
+
+		al.add(laptop1);
+		ll.add(laptop2);
+		hs.add(laptop3);
+		hs.add(laptop4);
+
+		}
+
+}

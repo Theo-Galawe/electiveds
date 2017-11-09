@@ -1,0 +1,36 @@
+public class Laptop {
+	private String pcName;
+	private int modelYear;
+
+	 public laptop(String pcName,int modelYear){
+		this.pcName=pcName;
+		this.modelYear=modelyear;
+		}
+	 public String getPcName(){
+		return pcName;
+		}
+	 public int getModelYear(){
+		return modelYear;
+		}
+	 public void setPcName(String pcName){
+		this.pcName=pcName;
+		}
+
+	 public void setModelYear(){
+	 	this.modelYear=modelYear;
+	 	}
+
+	 	 @Override
+	 	 public boolean equals(Object o){
+	 	 	if (this==0) return true;
+	 	 	if (o==null||getClass() != o.getClass()) return false;
+
+	 	 	Laptop laptop==(laptop) o;
+	 	 	return modelYear==laptop.modelYear;
+		}
+		@override
+		public int hashCode(){
+			return modelYear;
+			}
+}
+
