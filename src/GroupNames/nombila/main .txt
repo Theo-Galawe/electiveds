@@ -9,15 +9,15 @@ public class main {
 		LinkedList ll= new LinkedList();
 		HashSet hs= new HashSet();
 
-		Laptop laptop1= new Laptop ("Lenovo" , 2008);
-		Laptop laptop1= new Laptop ("HP" , 2010);
-		Laptop laptop1= new Laptop ("Dell" , 2007);
-		Laptop laptop1= new Laptop ("Apple" , 2003);
+		Animal animal1= new Laptop ("Dog" , 8);
+		Animal animal1= new Laptop ("Cat" , 2);
+		Animal animal1= new Laptop ("Goat" , 7);
+		Animal animal1= new Laptop ("Bird" , 3);
 
-		al.add(laptop1);
-		ll.add(laptop2);
-		hs.add(laptop3);
-		hs.add(laptop4);
+		al.add(animal1);
+		ll.add(animal2);
+		hs.add(animal3);
+		hs.add(animal4);
 
 		}
 
